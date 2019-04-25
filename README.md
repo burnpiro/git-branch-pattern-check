@@ -15,7 +15,7 @@ Best way to use library is to run it as git hook. You could use [Husky](https://
 {
   "husky": {
       "hooks": {
-        "pre-push": "git-branch-pattern-check '^((feature|fix|hotfix|release)\/|release-).+'"
+        "pre-push": "git-branch-pattern-check '^(feature|fix|hotfix|release)\/.+'"
       }
     }
   "devDependencies": {
@@ -23,6 +23,14 @@ Best way to use library is to run it as git hook. You could use [Husky](https://
   }
 }
 ```
+
+Basic patterns:
+
+`^(feature|fix|hotfix|release)\/.+'` - branch has to start with `feature/`, `fix/`, `release/` or `hotfix/`
+
+`(feature|release|hotfix)\/(JIRA-\d+)` - it should look like `feature/JIRA-1234`
+
+`(feature|release|hotfix)\/(JIRA-\d+\/)?[a-z-]+` - it should look like `feature/branch-name` or include JIRA's code like `feature/JIRA-1234/branch-name`
 
 ## Issues
 If you've encountered sth spooky and want to share please fill Bug Report here:
