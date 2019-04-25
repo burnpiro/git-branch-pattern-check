@@ -21,5 +21,8 @@
     "eslint-config-prettier": "^4.2.0",
     "jest": "^24.7.1",
     "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "current-git-branch": "^1.1.0"
   }
 }
