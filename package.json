@@ -1,0 +1,25 @@
+{
+  "name": "git-branch-patter-check",
+  "version": "1.0.0",
+  "description": "Git branch pattern validation hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "git",
+    "branch",
+    "naming",
+    "conventions",
+    "pattern",
+    "validation"
+  ],
+  "author": "Kemal Erdem",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0"
+  }
+}
