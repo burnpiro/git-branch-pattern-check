@@ -4,7 +4,7 @@ const branchName = require('current-git-branch');
 
 // Exit with error when no regex provided
 if (!process.argv[2]) {
-  console.error('Usage: branch-naming-check <regexp>');
+  console.error('\x1b[31m%s\x1b[0m', 'Usage: branch-naming-check <regexp>\n');
   process.exitCode = 1;
   return;
 }
@@ -23,7 +23,7 @@ try {
     );
   }
 } catch (error) {
-  console.error(error.message + '\n');
+  console.error('\x1b[31m%s\x1b[0m', error.message + '\n');
   process.exitCode = 1;
   return;
 }
