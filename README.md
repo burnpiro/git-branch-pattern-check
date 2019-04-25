@@ -32,6 +32,9 @@ Basic patterns:
 
 `(feature|release|hotfix)\/(JIRA-\d+\/)?[a-z-]+` - it should look like `feature/branch-name` or include JIRA's code like `feature/JIRA-1234/branch-name`
 
+include `master` and `develop`:
+`^master|develop|(feature|fix|hotfix|release)\/.+'`
+
 ## Issues
 If you've encountered sth spooky and want to share please fill Bug Report here:
 https://github.com/burnpiro/git-branch-patter-check/issues
