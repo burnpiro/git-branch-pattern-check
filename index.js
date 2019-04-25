@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const branchName = require('current-git-branch');
 
 // Exit with error when no regex provided

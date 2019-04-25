@@ -1,7 +1,10 @@
 {
-  "name": "git-branch-patter-check",
-  "version": "1.0.0",
+  "name": "git-branch-pattern-check",
+  "version": "1.0.2",
   "description": "Git branch pattern validation hook",
+  "repository": {
+    "url": "https://github.com/burnpiro/git-branch-patter-check"
+  },
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
@@ -14,6 +17,12 @@
     "pattern",
     "validation"
   ],
+  "bin": {
+    "git-branch-pattern-check": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Kemal Erdem",
   "license": "MIT",
   "devDependencies": {
