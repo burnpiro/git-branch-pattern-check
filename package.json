@@ -1,6 +1,6 @@
 {
   "name": "git-branch-pattern-check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Git branch pattern validation hook",
   "repository": {
     "url": "https://github.com/burnpiro/git-branch-patter-check"
