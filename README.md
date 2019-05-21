@@ -37,7 +37,7 @@ include `master` and `develop`:
 
 ## Issues
 If you've encountered sth spooky and want to share please fill Bug Report here:
-https://github.com/burnpiro/git-branch-patter-check/issues
+https://github.com/burnpiro/git-branch-pattern-check/issues
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
