@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Git branch pattern validation hook",
   "repository": {
-    "url": "https://github.com/burnpiro/git-branch-patter-check"
+    "url": "https://github.com/burnpiro/git-branch-pattern-check"
   },
   "main": "index.js",
   "scripts": {
